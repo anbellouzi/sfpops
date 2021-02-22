@@ -1,0 +1,12 @@
+.randomButton {
+    padding: 5px;
+    background-color: antiquewhite;
+    border: 1px transparent;
+    border-radius: 5px;
+}
+
+.randomButton:hover {
+    cursor: pointer;
+    background-color: orange;
+    color: black;
+}
