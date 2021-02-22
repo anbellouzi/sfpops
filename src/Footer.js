@@ -3,10 +3,12 @@
 import React from 'react'
 import './Footer.css';
 
+const date = new Date().getFullYear()
+
 function Footer() {
     return (
       <div className="Footer">
-        <h2>Mitchell Hudson copyright 2019</h2>
+        <h2>Mitchell Hudson copyright {date}</h2>
       </div>
     );
   }
